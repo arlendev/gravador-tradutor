@@ -7,6 +7,7 @@
   <title>Speech</title>
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="normalize.css">
+  <link rel="stylesheet" href="fontawesome/css/all.css">
   <!-- <script src="https://kit.fontawesome.com/cf6fa412bd.js" crossorigin="anonymous"></script> -->
   <script src="https://kit.fontawesome.com/cf6fa412bd.js"></script>
 </head>
@@ -15,33 +16,57 @@
 
   <div class="container">
 
-    <div class="reconheceVoz">
-      <h1>RECONHECIMENTO DE VOZ</h1>
-      <textarea id="textareaFrom" rows="8" placeholder="Entrada por voz ou texto"></textarea>
-      <div class="botoes">
-        <button id="btnGravar"><i class="fas fa-microphone"></i></button>
-        <button id="btnParar" disabled><i class="fas fa-microphone-slash"></i></button>
-        <button id="btnBaixar"><i class="fas fa-download"></i></button>
-        <button id="btnLimpar"><i class="fas fa-trash-alt"></i></button>
+    <header>
+      <div class="containerHeader">
+        <h2 class="appName">Codificador de Texto</h2>
+        <h2 id="logo">| arlen |</h2>
       </div>
-    </div>
+    </header>
 
-    <div class="traduzTexto">
-      <h1>TRADUTOR</h1>
-      <textarea id="textareaTo" rows="8" placeholder="Tradução"></textarea>
-      <div class="seletores">
-        <select class="selectFrom"></select>
-        <select class="selectTo"></select>
+    <main>
+      <div class="reconheceVoz">
+        <h1>RECONHECIMENTO DE VOZ</h1>
+        <textarea id="textareaFrom" rows="8" placeholder="Entrada por voz ou texto"></textarea>
+        <div class="botoes">
+          <button id="btnGravar"><i class="fas fa-microphone"></i></button>
+          <button id="btnParar" disabled><i class="fas fa-microphone-slash"></i></button>
+          <button id="btnBaixar"><i class="fas fa-download"></i></button>
+          <button id="btnLimpar"><i class="fas fa-trash-alt"></i></button>
+        </div>
       </div>
-      <div class="botoes">
-        <button id="btnTraduzir">TRADUZIR</button>
+
+      <div class="traduzTexto">
+        <h1>TRADUTOR</h1>
+        <textarea id="textareaTo" rows="8" placeholder="Tradução"></textarea>
+        <div class="seletores">
+          <select class="selectFrom"></select>
+          <select class="selectTo"></select>
+        </div>
+        <div class="botoes">
+          <button id="btnTraduzir">TRADUZIR</button>
+        </div>
       </div>
-    </div>
 
-    <script src="reconhece-voz.js"></script>
-    <script src="traduz-texto.js"></script>
+      <script src="reconhece-voz.js"></script>
+      <script src="traduz-texto.js"></script>
+    </main>
 
-  </div>  <!--fecha container-->
+    <footer>
+      <div class="containerFooter">
+          <div>
+              <ul class="social">
+                  <li><p>Desenvolvido por | Arlen Possamai | 2022</p></li>
+                  <li><a href="https://www.linkedin.com/in/arlen-possamai-9899791a9/" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
+                  <li><a href="https://github.com/arlendev" target="_blank"><i class="fa-brands fa-github"></i></a></li>
+                  <li><a href="https://arlendev.github.io/portfolio/" target="_blank"><i class="fa-solid fa-globe"></i></a></li>
+                  <li><a href="https://www.facebook.com/arlen.possamai" target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
+             </ul>   
+          </div>
+      </div>
+  </footer>
+
+  </div>
+  <!--fecha container-->
 
 </body>
 
