@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr-FR">
+<html lang="pt-BR">
 
 <head>
   <meta charset="UTF-8">
@@ -24,31 +24,33 @@
     </header>
 
     <main>
-      <div class="reconheceVoz">
-        <h1>RECONHECIMENTO DE VOZ</h1>
-        <textarea id="textareaFrom" rows="8" placeholder="Entrada por voz ou texto"></textarea>
-        <div class="botoes">
-          <button id="btnGravar"><i class="fas fa-microphone"></i></button>
-          <button id="btnParar" disabled><i class="fas fa-microphone-slash"></i></button>
-          <button id="btnBaixar"><i class="fas fa-download"></i></button>
-          <button id="btnLimpar"><i class="fas fa-trash-alt"></i></button>
+      <div class="containerMain">
+        <div class="reconheceVoz">
+          <label class="labelText">Reconhecimento de voz</label>
+          <textarea id="textareaFrom" rows="8" placeholder="Entrada por voz ou texto"></textarea>
+          <div class="botoes">
+            <button id="btnGravar"><i class="fas fa-microphone"></i></button>
+            <button id="btnParar" disabled><i class="fas fa-microphone-slash"></i></button>
+            <button id="btnBaixar"><i class="fas fa-download"></i></button>
+            <button id="btnLimpar"><i class="fas fa-trash-alt"></i></button>
+          </div>
         </div>
+  
+        <div class="traduzTexto">
+          <label class="labelText">Tradutor</label>
+          <textarea id="textareaTo" rows="8" placeholder="Tradução"></textarea>
+          <div class="seletores">
+            <select class="selectFrom"></select>
+            <select class="selectTo"></select>
+          </div>
+          <div class="botoes">
+            <button id="btnTraduzir">TRADUZIR</button>
+          </div>
+        </div>
+  
+        <script src="reconhece-voz.js"></script>
+        <script src="traduz-texto.js"></script>
       </div>
-
-      <div class="traduzTexto">
-        <h1>TRADUTOR</h1>
-        <textarea id="textareaTo" rows="8" placeholder="Tradução"></textarea>
-        <div class="seletores">
-          <select class="selectFrom"></select>
-          <select class="selectTo"></select>
-        </div>
-        <div class="botoes">
-          <button id="btnTraduzir">TRADUZIR</button>
-        </div>
-      </div>
-
-      <script src="reconhece-voz.js"></script>
-      <script src="traduz-texto.js"></script>
     </main>
 
     <footer>
@@ -63,10 +65,9 @@
              </ul>   
           </div>
       </div>
-  </footer>
+    </footer>
 
-  </div>
-  <!--fecha container-->
+  </div> <!--fecha container-->
 
 </body>
 
