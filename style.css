@@ -115,17 +115,6 @@ button:hover {
   color: #0A3871;
 }
 
-#encryptBtn {
-  background-color: #0A3871;
-  border: 1px solid #0A3871;
-  color: #fff;
-}
-
-#encryptBtn:hover {
-  background-color: #fff;
-  border: 1px solid #0A3871;
-  color: #0A3871;
-}
 
 .selectFrom, .selectTo {
   padding: 15px;
