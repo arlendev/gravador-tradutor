@@ -89,7 +89,7 @@ body {
   margin-top: 10px;
 }
 
-.botoes button {
+button {
   padding: 15px;
   border: none;
   cursor: pointer;
@@ -98,28 +98,22 @@ body {
   margin: 10px;
   padding: 10px;
   border-radius: 24px;
-  /* color: #0A3871; */
-  /* border: 1px solid #0A3871; */
+  border: 1px solid #d6dee7;
   font-size: 1.1rem;
   width: 8rem; 
-
+}
   /* background-color: #fff;
   border: 1px solid #0A3871;
-
-
-
-
   transition: .5s;
   color: #0A3871;
   font-size: 1.1rem;
   width: 8rem; */
-}
 
-/* button:hover {
-  border: 1px solid #0A3871;
-  background-color: #0A3871;
-  color: #fff;
-} */
+
+button:hover {
+  background-color: #d6dee7;
+  color: #0A3871;
+}
 
 #encryptBtn {
   background-color: #0A3871;
@@ -133,6 +127,19 @@ body {
   color: #0A3871;
 }
 
+.selectFrom, .selectTo {
+  padding: 15px;
+  border: none;
+  cursor: pointer;
+  border-radius: 50%;
+  background-color: #fff;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 24px;
+  border: 1px solid #d6dee7;
+  font-size: 1.1rem;
+  width: 8rem; 
+}
 
 
 .containerFooter {
