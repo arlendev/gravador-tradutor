@@ -156,13 +156,12 @@ button:hover {
   text-decoration: none;
 }
 
-.social i {
-  color: #0A3871;
-  font-size: 30px;
+.social img {
+  width: 30px;
 }
 
-.social i:hover {
-  color: cornflowerblue;
+.social img:hover {
+  opacity: 80%;
 }
 
 
