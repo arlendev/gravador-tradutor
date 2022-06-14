@@ -24,12 +24,6 @@ body {
   color: #0A3871;
 }
 
-#logo {
-  font-size: 1.8rem;
-  font-weight: 600;
-  color: #0A3871;
-}
-
 .containerMain {
   display: flex;
   justify-content: center;
@@ -87,6 +81,10 @@ body {
 .botoes {
   align-items: center;
   margin-top: 10px;
+}
+
+.botoes img {
+  width: 15px;
 }
 
 button {
