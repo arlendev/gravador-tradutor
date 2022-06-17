@@ -164,13 +164,43 @@ button:hover {
 
 
 
+/* ========================= media query */
 
-
-@media(max-width: 700px) {
+@media only screen and (max-width: 900px) {
   .container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    border: 1px solid #0A3871;
   }
+  
+  .appName {
+      font-size: 25px;
+      font-weight: 800;
+      color: #0A3871;
+  }
+
+  .containerMain {
+      display: grid;
+
+  }
+
+  #textareaFrom {
+      width: 380px;
+      height: 200px;
+  }
+
+  .btn {
+      width: 160px;
+  }
+
+  #textareaTo {
+      width: 380px;
+      height: 200px;
+  }
+
+  .social li p {
+      display: none;
+  }
+}
+
+@media only screen and (max-height: 413px) {
+
 }
