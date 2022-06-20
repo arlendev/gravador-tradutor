@@ -34,8 +34,12 @@ body {
 }
 
 .reconheceVoz, .traduzTexto {
-  display: grid;
-  place-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* display: grid;
+  place-items: center; */
   width: 40%;
   height: 40%;
   padding: 10px;
