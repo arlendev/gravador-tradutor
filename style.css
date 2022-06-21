@@ -172,43 +172,65 @@ button:hover {
 
 @media only screen and (max-width: 900px) {
   .container {
-    border: 1px solid #0A3871;
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
   }
-  
+
   .appName {
-      font-size: 25px;
-      font-weight: 800;
+      font-size: 1.5rem;
       color: #0A3871;
   }
 
   .labelText {
-    width: 400px;
-    margin: 0 auto;
+    font-size: 1rem;
   }
 
   .containerMain {
+    border: 1px solid green;
       display: flex;
       flex-direction: column;
       align-items: center;
-
+      width: 100%;
   }
 
-  #textareaFrom {
-      width: 380px;
-      height: 200px;
+  .reconheceVoz, .traduzTexto {
+    width: 100%;
   }
 
-  .btn {
-      width: 160px;
+  #textareaFrom, #textareaTo {
+      width: 70%;
+      height: 50%;
   }
 
-  #textareaTo {
-      width: 380px;
-      height: 200px;
+  .botoes, .seletores {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
-  .social li p {
-      display: none;
+  button {
+    width: 80px;
+  }
+
+  #btnTraduzir {
+    font-size: 1rem;
+    width: 100px;
+  }
+
+  .containerFooter {
+    border: 1px solid green;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+}
+
+  .social {
+    border: 1px solid red;
+    flex-wrap: wrap;
   }
 }
 
