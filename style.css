@@ -38,8 +38,6 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* display: grid;
-  place-items: center; */
   width: 40%;
   height: 40%;
   padding: 10px;
@@ -163,7 +161,7 @@ button:hover {
 
 @media only screen and (max-width: 900px) {
   .container {
-    border: 1px solid blueviolet;
+    /* border: 1px solid blueviolet; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -171,11 +169,11 @@ button:hover {
   }
 
   .containerHeader {
-    border: 1px solid green;
+    /* border: 1px solid green; */
     display: flex;
     justify-content: center;
     align-items: center;
-    /* width: 80%; */
+    width: 100%;
   }
 
   .appName {
@@ -188,11 +186,11 @@ button:hover {
   }
 
   .containerMain {
-    border: 1px solid green;
+    /* border: 1px solid green; */
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* width: 80%; */
+    width: 100%;
   }
 
   .reconheceVoz, .traduzTexto {
@@ -220,12 +218,13 @@ button:hover {
   }
 
   .containerFooter {
-    border: 1px solid green;
-    width: 80%;
+    /* border: 1px solid green; */
+    margin-left: 90px;
+    width: 70%;
 }
 
   .social {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     flex-wrap: wrap;
   }
 }

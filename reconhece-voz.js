@@ -1,5 +1,5 @@
 const textArea = document.querySelector("#textareaFrom")
-const textArea1 = document.querySelector("#textareaTo")
+// const textArea1 = document.querySelector("#textareaTo")
 const btnGravar = document.querySelector("#btnGravar")
 const btnParar = document.querySelector("#btnParar")
 const btnBaixar = document.querySelector("#btnBaixar")
