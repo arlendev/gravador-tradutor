@@ -1,5 +1,4 @@
 const textArea = document.querySelector("#textareaFrom")
-// const textArea1 = document.querySelector("#textareaTo")
 const btnGravar = document.querySelector("#btnGravar")
 const btnParar = document.querySelector("#btnParar")
 const btnBaixar = document.querySelector("#btnBaixar")
@@ -73,7 +72,6 @@ function download(text, filename) {
 
 btnLimpar.addEventListener("click", () => {
   textArea.value = ""
-  textArea1.value = ""
   btnGravar.disabled = false
   btnParar.disabled = true
   speech.stop()
