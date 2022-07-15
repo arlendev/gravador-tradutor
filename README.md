@@ -45,7 +45,7 @@ It can be used for notes and anamnesis of patients of a physiotherapist for exam
 
 ## :computer: Installation ##
 
-You can use it by clicking here or you can download the zipped project.
+You can use it by clicking [HERE](https://arlendev.github.io/gravador-tradutor/) or you can download the zipped project.
 
 
 ## :memo: License ##
@@ -54,7 +54,7 @@ This project is under MIT license. See the [LICENSE](LICENSE) file for more deta
 
 ## :v: Credits ##
 
-Partial credits @WilliamDosSantos (William Lucas).
+Partial credits [William Lucas](https://github.com/WilliamDosSantos)
 
 ## :pencil2: Author ##
 
