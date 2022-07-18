@@ -33,8 +33,8 @@
 
 ## :dart: About ##
 
-This project is part of a system developed for professionals who need to record patient notes in audio and later have this content available in text in a patient registration database.
-It allows voice or text input and text output with translation.
+This project is a part of a system developed for professionals who need to record patient notes in audio and later make this content available in text in a patient file. 
+Allows voice or text input and text output with translation. 
 It can be used for notes and anamnesis of patients of a physiotherapist for example.
 
 ## :rocket: Technologies ##
